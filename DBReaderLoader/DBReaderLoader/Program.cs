@@ -13,7 +13,7 @@ namespace DBReaderLoader
             //запустим создание таблицы и сохранение ее в файл
             //MyCreateTable.CreateFerstTable();
             //загрузка таблицы MyTestTable из файла
-            MyCreateTable.Load();
+            
         }
     }
 }
