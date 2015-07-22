@@ -2,3 +2,4 @@ D:\Develop\github\DBEngine\DBReaderLoader\DBReaderLoader\bin\Debug\DBReaderLoade
 D:\Develop\github\DBEngine\DBReaderLoader\DBReaderLoader\bin\Debug\DBReaderLoader.pdb
 D:\Develop\github\DBEngine\DBReaderLoader\DBReaderLoader\obj\x86\Debug\DBReaderLoader.exe
 D:\Develop\github\DBEngine\DBReaderLoader\DBReaderLoader\obj\x86\Debug\DBReaderLoader.pdb
+D:\Develop\github\DBEngine\DBReaderLoader\DBReaderLoader\obj\x86\Debug\DBReaderLoader.csprojResolveAssemblyReference.cache
