@@ -1,0 +1,4 @@
+D:\Develop\github\DBEngine\DirFindSPR\DirFindSPR\bin\Debug\DirFindSPR.exe
+D:\Develop\github\DBEngine\DirFindSPR\DirFindSPR\bin\Debug\DirFindSPR.pdb
+D:\Develop\github\DBEngine\DirFindSPR\DirFindSPR\obj\x86\Debug\DirFindSPR.exe
+D:\Develop\github\DBEngine\DirFindSPR\DirFindSPR\obj\x86\Debug\DirFindSPR.pdb
