@@ -12,6 +12,18 @@ namespace DBReaderLoader
 {
     class DBXML
     {
+        
+        //Функиця проверки существования таблици
+        public bool ExistXMLTable(string NameTable)
+            { 
+                //добавляем к имени таблицы расширение файла
+                NameTable+=  ".xml";
+                //если файл с таким именем существует значить таблица есть 
+                if (File.Exists(NameTable))
+                    return true; //таблица есть
+                else
+                    return false; //таблицы нет 
+            }
         //Функция создания таблицы
       public DataTable CreateTable(string NameTable, List<DataColumn> collumns )
         {
