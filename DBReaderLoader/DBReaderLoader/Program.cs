@@ -11,31 +11,18 @@ namespace DBReaderLoader
         {
             //объявляем  класс для создания таблицы
             DBXML MyCreateTable = new DBXML();
-            //объявляем  список столбцов таблицы
-            List<DataColumn> CollumnTable = new List<DataColumn>();
-            
-            //создаем новый столбец.
-            DataColumn 
-                column = new DataColumn(); 
-            //создаем числовое поле 
-            column.DataType = System.Type.GetType("System.Int32");
-            //задаем имя столбцу
-            column.ColumnName = "ID";
-            //добавляем в список столбцов
-            CollumnTable.Add(column);
-
-            column = new DataColumn(); //создаем новый столбец.
-            //создаем числовое поле 
-            column.DataType = System.Type.GetType("System.String");
-            //задаем имя столбцу
-            column.ColumnName = "MyTestText";
-            //добавляем в список столбцов
-            CollumnTable.Add(column);
-
-            //создаем таблицу
-            DataTable MyNewTable =   MyCreateTable.CreateTable("Test",CollumnTable);
-            //запустим создание таблицы и сохранение ее в файл
-            MyCreateTable.SaveDataTableInXML(MyNewTable);
+            //загрузим таблицу чтобы знать ее столбцы
+            DataTable MyNewTable = MyCreateTable.LoadDataTablefromXML("Test");
+            //создаем пустую строку на основе стобцов таблицы
+            DataRow MyNewRow = MyNewTable.NewRow();
+            //заполняем значение строк таблицы
+            MyNewRow["ID"]          = 1;
+            MyNewRow["MyTestText"]  = "Test Text";
+            //обьявляем класс работы с таблицей
+            DataTableAction MyActionInTable = new DataTableAction();
+            //вызываем функцию добавления строки в таблицу
+            MyActionInTable.insert(MyNewRow, "Test");
+            /************************************************************************************/
             
         }
     }

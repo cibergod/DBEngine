@@ -15,4 +15,8 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
+  <Test>
+    <ID>1</ID>
+    <MyTestText>Test Text</MyTestText>
+  </Test>
 </NewDataSet>
