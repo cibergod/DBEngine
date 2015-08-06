@@ -1,0 +1,4 @@
+D:\Develop\github\DBEngine\OpenConnection\TryOpenConnect\TryOpenConnect\bin\Debug\TryOpenConnect.exe
+D:\Develop\github\DBEngine\OpenConnection\TryOpenConnect\TryOpenConnect\bin\Debug\TryOpenConnect.pdb
+D:\Develop\github\DBEngine\OpenConnection\TryOpenConnect\TryOpenConnect\obj\x86\Debug\TryOpenConnect.exe
+D:\Develop\github\DBEngine\OpenConnection\TryOpenConnect\TryOpenConnect\obj\x86\Debug\TryOpenConnect.pdb
