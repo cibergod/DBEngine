@@ -11,8 +11,8 @@ namespace TryOpenConnect
         {
                 ConnectDB MyDB = new ConnectDB();
                 MyDB.BaseDirectory = @"d:\Paradox\";
-          
-                
+
+                MyDB.GetSQL("Select * from KLIKOCFG");
             
             Console.ReadKey();
         }

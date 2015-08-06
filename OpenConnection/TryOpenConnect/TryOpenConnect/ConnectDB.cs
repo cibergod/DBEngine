@@ -57,6 +57,14 @@ namespace TryOpenConnect
             //возвращаем результат соеденеия
             return ConnectAccept;
         }
+
+        //получает список таблиц в директории
+        public string[] GetTable()
+        {
+            //получаем список файлов 
+            return Directory.GetFiles(BaseDirectory, "*.db*");
+        }
+
         //получаем данные из таблицы по запросу  
         public DataTable GetSQL(string SQL) 
         {
